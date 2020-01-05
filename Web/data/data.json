@@ -1,0 +1,32 @@
+{
+  "humidity": {
+    "now": 20,
+    "ref": 85,
+    "toleranceValue": 2,
+    "toleranceTime": 15
+  },
+  "temperature": {
+    "now": 26,
+    "ref": 24,
+    "toleranceValue": 1,
+    "toleranceTime": 15
+  },
+  "co2": {
+    "now": 70,
+    "ref": 70,
+    "toleranceValue": 1,
+    "toleranceTime": 15
+  },
+  "light": {
+    "now": 0,
+    "lightTimeRef": 12,
+    "darkTimeRef": 12
+  },
+  "equipment": {
+    "humidificatorRelay": false,
+    "aquecedorRelay": false,
+    "refrigeradorRelay": true,
+    "compressorRelay": true,
+    "lightRelay": false
+  }
+}
